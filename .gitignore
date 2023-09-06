@@ -18,8 +18,8 @@ wp-content/ai1wm-backups/
 wp-content/elementor/
 
 # Archivos de configuración y secretos (¡nunca los incluyas en un repositorio público!)
-wp-config.php
-wp-config-sample.php
+# wp-config.php
+# wp-config-sample.php
 .htaccess
 
 # Archivos temporales
