@@ -1,3 +1,4 @@
+# Archivos y carpetas generados por WordPress
 wp-content/uploads/
 wp-content/upgrade/
 wp-content/backup-db/
@@ -16,19 +17,20 @@ wp-content/wflogs/
 wp-content/ai1wm-backups/
 wp-content/elementor/
 
-wp-admin/
-wp-includes/
-
+# Archivos de configuración y secretos (¡nunca los incluyas en un repositorio público!)
 wp-config.php
 wp-config-sample.php
 .htaccess
 
+# Archivos temporales
 *.log
 *.sql
 *.zip
 
+# Archivos generados por IDEs o editores de texto
 .idea/
 .vscode/
 *.sublime-project
 *.sublime-workspace
 
+# Dependiendo de tu entorno, puedes agregar más exclusiones aquí
